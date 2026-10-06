@@ -1,0 +1,69 @@
+{
+  "task": "logs-learn",
+  "condition": "skills-auto",
+  "role": "learn",
+  "error": null,
+  "timestamp": "2026-10-06T10:32:33.758176+00:00",
+  "skills_sha256": "9b029337052acb8b65b2b336e7df9c14712cffe1449bc11c1ba833b54c3cbce7",
+  "seconds": 168.8,
+  "tokens": {
+    "input": 14465,
+    "output": 16426,
+    "total": 30891
+  },
+  "tool_calls": 2,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.0,
+  "passed": 0,
+  "total": 9,
+  "checks": [
+    {
+      "name": "valid_structure",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "entry_count",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "timestamps_utc",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "exception_fields",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "repeat_counts",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "counts_by_service",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_service_names",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_sorted_errors",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_schema_header",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\ACER\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_vxjujl3t\\\\workspace\\\\errors.json'"
+    }
+  ]
+}

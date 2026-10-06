@@ -3,27 +3,27 @@
   "condition": "skills-auto",
   "role": "learn",
   "error": "GraphRecursionError: Recursion limit of 60 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.\nFor troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT",
-  "timestamp": "2026-10-06T10:43:20.636530+00:00",
+  "timestamp": "2026-10-06T10:31:04.335018+00:00",
   "skills_sha256": "9b029337052acb8b65b2b336e7df9c14712cffe1449bc11c1ba833b54c3cbce7",
-  "seconds": 61.5,
+  "seconds": 66.0,
   "tokens": {
-    "input": 186216,
-    "output": 4262,
-    "total": 190478
+    "input": 177076,
+    "output": 3861,
+    "total": 180937
   },
-  "tool_calls": 66,
+  "tool_calls": 61,
   "subagent_calls": 0,
   "skills_read": 0,
   "skills_modified": false,
   "final_message": "Error: parallel file mutations to the same path are not allowed.",
-  "score": 0.3,
-  "passed": 3,
+  "score": 0.0,
+  "passed": 0,
   "total": 10,
   "checks": [
     {
       "name": "visible_suite_passes",
-      "passed": true,
-      "detail": ""
+      "passed": false,
+      "detail": "1 error in 0.37s"
     },
     {
       "name": "tests_not_modified",
@@ -33,32 +33,32 @@
     {
       "name": "parse_price_all_formats",
       "passed": false,
-      "detail": "wrong for: ['(12.00)']"
+      "detail": "SyntaxError: invalid syntax (pricing.py, line 25)"
     },
     {
       "name": "other_caller_fixed",
-      "passed": true,
-      "detail": ""
+      "passed": false,
+      "detail": "SyntaxError: invalid syntax (pricing.py, line 25)"
     },
     {
       "name": "discount_rounds_half_up",
-      "passed": true,
-      "detail": ""
+      "passed": false,
+      "detail": "SyntaxError: invalid syntax (pricing.py, line 25)"
     },
     {
       "name": "low_stock_follows_docstring",
       "passed": false,
-      "detail": "low_stock returned ['b', 'A', 'c']"
+      "detail": "SyntaxError: invalid syntax (pricing.py, line 25)"
     },
     {
       "name": "csv_quoting_follows_docstring",
       "passed": false,
-      "detail": "to_csv_row returned 'Desk, large \"oak\",10.00,2'"
+      "detail": "SyntaxError: invalid syntax (pricing.py, line 25)"
     },
     {
       "name": "rule_type_hints",
       "passed": false,
-      "detail": "RULE: every public function (name not starting with '_') in the package has type annotations on all parameters and on the return value."
+      "detail": "SyntaxError: invalid syntax (<unknown>, line 25)"
     },
     {
       "name": "rule_regression_tests",
